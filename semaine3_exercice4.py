@@ -6,12 +6,23 @@
 #hiver hémisphère nord 22 dec 20 mars
 
 def saison_de_naissance():
-    if mois 
+    
+    if 2 < mois < 7:
+        print("Vous ête née au printemps!")
+    elif 5 < mois < 9:
+        print("Vous êtes née en été!")
+    elif 10 < mois <= 11:
+        print("Vous êtes née en automne!")
+    else:
+        print("Vous êtes née en hiver!")
+    return
 
-jour = int(input("Quel est le jour de votre anniversaire:"))
-mois = int(input("Quel est le mois de votre anniversaire:"))
-hemisphere = str(input("Êtes-vous dans l'hémisphère nord ou sud:"))
+    
 
-saison = ["Automne", "Hiver", "Printemps", "Été"]
+#jour = int(input("Quel est le jour de votre anniversaire:"))
+mois = int(input("Quel est le mois de votre anniversaire en entier:"))
+#hemisphere = str(input("Êtes-vous dans l'hémisphère nord ou sud:"))
 
-a, h, p, e = saison
+
+
+saison_de_naissance()
